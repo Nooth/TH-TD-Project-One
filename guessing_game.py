@@ -47,7 +47,7 @@ def start_game(best_score):
 
 	#This should only show after the first game is played
 	if best_score < 50:
-		print("The best score thus far is {}, try to beat that!".format(guesses))
+		print("The best score thus far is {}, try to beat that!".format(best_score))
 
 
 	while True:
